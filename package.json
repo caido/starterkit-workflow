@@ -6,10 +6,11 @@
   "license": "CC0-1.0",
   "main": "index.js",
   "scripts": {
-    "build": "vite build"
+    "build": "rm -rf dist/ && vite build"
   },
   "dependencies": {
-    "@caido/sdk-workflow": "0.36.1"
+    "@caido/sdk-workflow": "0.36.1",
+    "@caido/dependency-example": "0.1.0"
   },
   "devDependencies": {
     "typescript": "5.4.5",

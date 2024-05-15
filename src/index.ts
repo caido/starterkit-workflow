@@ -1,4 +1,5 @@
 import type { RequestResponse, SDK, Bytes } from "@caido/sdk-workflow";
+import { testLog } from "@caido/dependency-example";
 
 /// This function is the entry point for your script.
 /// It receives two arguments:
@@ -10,6 +11,7 @@ export async function run(
   input: RequestResponse | Bytes,
   sdk: SDK,
 ): Promise<Bytes | undefined> {
+  testLog();
   // Your code here
   return "Hello, World!";
 }
