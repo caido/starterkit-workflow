@@ -39,6 +39,17 @@ export default defineConfig({
             }
           },
         },
+        {
+          name: "Banner",
+          banner: async function generateBanner() {
+            const pkg = require(resolve(__dirname, "package.json"));
+            return `/** \n *  @preserve\n *  Bundle of '${
+              pkg.name
+            }'\n *  Generated: ${new Date().toISOString()}\n *  Version: ${
+              pkg.version
+            }\n**/`;
+          },
+        },
       ],
     },
   },
