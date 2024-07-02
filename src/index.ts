@@ -1,4 +1,4 @@
-import type { RequestResponse, Bytes } from "caido:utils";
+import { Body, type RequestResponse, type Bytes } from "caido:utils";
 import type { SDK } from "caido:workflow";
 import { testLog } from "@caido/dependency-example";
 
@@ -9,11 +9,11 @@ import { testLog } from "@caido/dependency-example";
 ///   - Convert: Bytes
 /// - sdk: The SDK object, which provides access to Caido functions
 export async function run(
-  input: RequestResponse | Bytes,
+  input: RequestResponse | Bytes, // Remove the type that you don't need
   sdk: SDK,
 ): Promise<Bytes | undefined> {
   testLog();
-  new Body("Sample body");
+  sdk.console.log(new Body("test")); // Example from utils
   // Your code here
   return "Hello, World!";
 }
