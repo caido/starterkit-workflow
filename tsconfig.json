@@ -18,7 +18,8 @@
     "useDefineForClassFields": true,
     "isolatedModules": true,
 
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": ["@caido/sdk-workflow"]
   },
   "include": ["./src/**/*.ts"]
 }

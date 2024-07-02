@@ -63,7 +63,7 @@
           {
             "alias": "code",
             "value": {
-              "data": "/** \n *  @preserve\n *  Bundle of 'starterkit-workflow'\n *  Generated: 2024-05-15T21:13:28.890Z\n *  Version: 0.1.0\n**/\nfunction n() {\n  console.log(\"I am a test function\");\n}\nasync function e(o, t) {\n  return n(), \"Hello, World!\";\n}\nexport {\n  e as run\n};\n",
+              "data": "/** \n *  @preserve\n *  Bundle of 'starterkit-workflow'\n *  Generated: 2024-07-02T18:17:51.662Z\n *  Version: 0.1.0\n**/\nfunction n() {\n  console.log(\"I am a test function\");\n}\nasync function e(o, t) {\n  return n(), new Body(\"Sample body\"), \"Hello, World!\";\n}\nexport {\n  e as run\n};\n",
               "kind": "string"
             }
           }

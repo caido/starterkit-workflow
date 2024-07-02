@@ -1,4 +1,5 @@
-import type { RequestResponse, SDK, Bytes } from "@caido/sdk-workflow";
+import type { RequestResponse, Bytes } from "caido:utils";
+import type { SDK } from "caido:workflow";
 import { testLog } from "@caido/dependency-example";
 
 /// This function is the entry point for your script.
@@ -12,6 +13,7 @@ export async function run(
   sdk: SDK,
 ): Promise<Bytes | undefined> {
   testLog();
+  new Body("Sample body");
   // Your code here
   return "Hello, World!";
 }
