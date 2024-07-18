@@ -9,7 +9,7 @@
     "build": "rm -rf dist/ && vite build"
   },
   "dependencies": {
-    "@caido/sdk-workflow": "0.39.0-dev.1",
+    "@caido/sdk-workflow": "0.39.0",
     "@caido/dependency-example": "0.1.0"
   },
   "devDependencies": {

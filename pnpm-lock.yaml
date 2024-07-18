@@ -12,8 +12,8 @@ importers:
         specifier: 0.1.0
         version: 0.1.0
       '@caido/sdk-workflow':
-        specifier: 0.39.0-dev.1
-        version: 0.39.0-dev.1
+        specifier: 0.39.0
+        version: 0.39.0
     devDependencies:
       typescript:
         specifier: 5.4.5
@@ -27,8 +27,8 @@ packages:
   '@caido/dependency-example@0.1.0':
     resolution: {integrity: sha512-pf0nicMo8hbuuewc1/wF7S7GfIfs2tka10KVozGR8sea9awRnVHD6mg9US9LFyXbJwBDIn0xNxc6VY4NQKM+Tw==}
 
-  '@caido/sdk-workflow@0.39.0-dev.1':
-    resolution: {integrity: sha512-wAoLPLgzMDpsv/MNcvkSkjYBS3Xk5YQgLSAHJZoMRlPnsJh5+7WXLTEsr09N1XHj+9ODGy8NRuYRmdoFuHoSmQ==}
+  '@caido/sdk-workflow@0.39.0':
+    resolution: {integrity: sha512-isFPTnhoUMLr7ljZPzl4qWLkyUhiYDb7yMQ6WQENfmCLaHe/7jZ2rhuDeLYoMx/0GEndp6TY4k9hSYOn1Bhrvw==}
 
   '@esbuild/aix-ppc64@0.20.2':
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
@@ -319,7 +319,7 @@ snapshots:
 
   '@caido/dependency-example@0.1.0': {}
 
-  '@caido/sdk-workflow@0.39.0-dev.1': {}
+  '@caido/sdk-workflow@0.39.0': {}
 
   '@esbuild/aix-ppc64@0.20.2':
     optional: true
