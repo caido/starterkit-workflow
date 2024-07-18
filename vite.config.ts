@@ -13,6 +13,7 @@ export default defineConfig({
     },
     outDir: "dist",
     rollupOptions: {
+      external: [/caido:.+/],
       output: {
         manualChunks: undefined,
       },
